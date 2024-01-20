@@ -1,12 +1,12 @@
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
-import ItemList from "./components/MedicineList";
+import ScheduleList from "./components/ScheduleList/ScheduleList";
 
-export default function HomeScreen() {
+export default function SchedulesScreen() {
   return (
     <View style={styles.container}>
-      <Text>Home Screen</Text>
-      <ItemList />
+      <Text>Schedules Screen</Text>
+      <ScheduleList />
     </View>
   );
 }
