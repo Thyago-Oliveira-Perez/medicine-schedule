@@ -1,12 +1,13 @@
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
 import ScheduleList from "./components/ScheduleList/ScheduleList";
+import ScheduleRegister from "./components/ScheduleRegister/ScheduleRegister";
 
 export default function SchedulesScreen() {
   return (
     <View style={styles.container}>
-      <Text>Schedules Screen</Text>
-      <ScheduleList />
+      <ScheduleRegister />
+      {/* <ScheduleList /> */}
     </View>
   );
 }
